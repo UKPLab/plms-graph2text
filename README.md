@@ -80,19 +80,19 @@ Example:
 
 | AMR17          |
 | :------------- |
-| [bart-base](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/amr-bart-base.ckpt) - BLEU: 36.71 ([output]()) |
-| [bart-large](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/amr-bart-large.ckpt) - BLEU: 43.47 ([output]()) |
-|  [t5-small](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/amr-t5-small.ckpt) - BLEU: 38.45 ([output]()) | 
-| [t5-base](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/amr-t5-base.ckpt) - BLEU: 42.54 ([output]())  |
-| [t5-large](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/amr-t5-large.ckpt) - BLEU: 45.80 ([output]()) |
+| [bart-base](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/amr-bart-base.ckpt) - BLEU: 36.71 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/amr-bart-base.txt)) |
+| [bart-large](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/amr-bart-large.ckpt) - BLEU: 43.47 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/amr-bart-large.txt)) |
+|  [t5-small](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/amr-t5-small.ckpt) - BLEU: 38.45 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/amr-t5-small.txt)) | 
+| [t5-base](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/amr-t5-base.ckpt) - BLEU: 42.54 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/amr-t5-base.txt))  |
+| [t5-large](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/amr-t5-large.ckpt) - BLEU: 45.80 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/amr-t5-large.txt)) |
 
 | WebNLG   | 
 | :------------- |
-| [bart-base](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/webnlg-bart-base.ckpt) - All BLEU: 53.11 ([output]()), Seen BLEU: 62.74 ([output]()), Unseen BLEU: 41.53 ([output]()) | 
-| [bart-large](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/webnlg-bart-large.ckpt) - All BLEU: 54.72 ([output]()), Seen BLEU: 63.45 ([output]()), Unseen BLEU: 43.97 ([output]()) |
-| [t5-small](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/webnlg-t5-small.ckpt) - All BLEU: 56.34 ([output]()), Seen BLEU: 65.05 ([output]()), Unseen BLEU: 45.37 ([output]()) | 
-| [t5-base](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/webnlg-t5-base.ckpt) - All BLEU: 59.17 ([output]()), Seen BLEU: 64.64 ([output]()), Unseen BLEU: 52.55 ([output]()) | 
-| [t5-large](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/webnlg-t5-large.ckpt) - All BLEU: 59.70 ([output]()), Seen BLEU: 64.71 ([output]()), Unseen BLEU: 53.67 ([output]()) | 
+| [bart-base](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/webnlg-bart-base.ckpt) - All BLEU: 53.11 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-all-bart-base.txt)), Seen BLEU: 62.74 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-seen-bart-base.txt)), Unseen BLEU: 41.53 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-unseen-bart-base.txt)) | 
+| [bart-large](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/webnlg-bart-large.ckpt) - All BLEU: 54.72 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-all-bart-large.txt)), Seen BLEU: 63.45 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-seen-bart-large.txt)), Unseen BLEU: 43.97 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-unseen-bart-large.txt)) |
+| [t5-small](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/webnlg-t5-small.ckpt) - All BLEU: 56.34 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-all-t5-small.txt)), Seen BLEU: 65.05 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-seen-t5-small.txt)), Unseen BLEU: 45.37 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-unseen-t5-small.txt)) | 
+| [t5-base](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/webnlg-t5-base.ckpt) - All BLEU: 59.17 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-all-t5-base.txt)), Seen BLEU: 64.64 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-seen-t5-base.txt)), Unseen BLEU: 52.55 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-unseen-t5-base.txt)) | 
+| [t5-large](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/webnlg-t5-large.ckpt) - All BLEU: 59.70 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-all-t5-large.txt)), Seen BLEU: 64.71 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-seen-t5-large.txt)), Unseen BLEU: 53.67 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-unseen-t5-large.txt)) | 
 
 | AGENDA   | 
 | :------------- |
