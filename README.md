@@ -94,10 +94,6 @@ Example:
 | [t5-base](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/webnlg-t5-base.ckpt) - All BLEU: 59.17 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-all-t5-base.txt)), Seen BLEU: 64.64 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-seen-t5-base.txt)), Unseen BLEU: 52.55 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-unseen-t5-base.txt)) | 
 | [t5-large](https://public.ukp.informatik.tu-darmstadt.de/ribeiro/graph2text/webnlg-t5-large.ckpt) - All BLEU: 59.70 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-all-t5-large.txt)), Seen BLEU: 64.71 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-seen-t5-large.txt)), Unseen BLEU: 53.67 ([output](https://github.com/UKPLab/plms-graph2text/raw/master/generated_outputs/webnlg-unseen-t5-large.txt)) | 
 
-| AGENDA   | 
-| :------------- |
-| coming soon |
-
 \* BLEU values for AMR17 are calculated using [sacreBLEU](https://github.com/mjpost/sacrebleu) in detok outputs. BLEU values for WebNLG are calculated using tok outputs using the [challange's script](https://gitlab.com/webnlg/webnlg-baseline), that uses multi-bleu.perl.
 
 
