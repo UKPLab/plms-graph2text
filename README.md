@@ -1,6 +1,6 @@
 # Investigating Pretrained Language Models for Graph-to-Text Generation
 
-This repository contains the code for the paper: "[Investigating Pretrained Language Models for Graph-to-Text Generation](https://arxiv.org/pdf/2007.08426.pdf)".
+This repository contains the code for the paper: "[Investigating Pretrained Language Models for Graph-to-Text Generation](https://arxiv.org/pdf/2007.08426.pdf)", EMNLP | NLP4ConvAI.
 
 > This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication.
 
@@ -106,12 +106,19 @@ Contact person: Leonardo Ribeiro, ribeiro@aiphes.tu-darmstadt.de
 
 ## Citation
 ```
-@misc{ribeiro2020investigating,
-      title={Investigating Pretrained Language Models for Graph-to-Text Generation}, 
-      author={Leonardo F. R. Ribeiro and Martin Schmitt and Hinrich Schütze and Iryna Gurevych},
-      year={2020},
-      eprint={2007.08426},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{ribeiro-etal-2021-investigating,
+    title = "Investigating Pretrained Language Models for Graph-to-Text Generation",
+    author = {Ribeiro, Leonardo F. R.  and
+      Schmitt, Martin  and
+      Sch{\"u}tze, Hinrich  and
+      Gurevych, Iryna},
+    booktitle = "Proceedings of the 3rd Workshop on Natural Language Processing for Conversational AI",
+    month = nov,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.nlp4convai-1.20",
+    pages = "211--227",
+    abstract = "Graph-to-text generation aims to generate fluent texts from graph-based data. In this paper, we investigate two recent pretrained language models (PLMs) and analyze the impact of different task-adaptive pretraining strategies for PLMs in graph-to-text generation. We present a study across three graph domains: meaning representations, Wikipedia knowledge graphs (KGs) and scientific KGs. We show that approaches based on PLMs BART and T5 achieve new state-of-the-art results and that task-adaptive pretraining strategies improve their performance even further. We report new state-of-the-art BLEU scores of 49.72 on AMR-LDC2017T10, 59.70 on WebNLG, and 25.66 on AGENDA datasets - a relative improvement of 31.8{\%}, 4.5{\%}, and 42.4{\%}, respectively, with our models generating significantly more fluent texts than human references. In an extensive analysis, we identify possible reasons for the PLMs{'} success on graph-to-text tasks. Our findings suggest that the PLMs benefit from similar facts seen during pretraining or fine-tuning, such that they perform well even when the input graph is reduced to a simple bag of node and edge labels.",
 }
 ```
